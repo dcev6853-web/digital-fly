@@ -91,3 +91,18 @@ cat experiments/results/report.md
 
 Send Henry: the exact command you ran, the full error output, and `python3 --version` /
 `uname -m` (tells us Intel vs Apple Silicon).
+## Installing Pip
+cd digital-fly
+
+# confirm python3 exists
+python3 --version
+
+# recreate the venv (ensurepip bootstraps pip automatically)
+python3.11 -m venv .venv --upgrade-deps
+
+# activate it
+source .venv/bin/activate
+
+# confirm pip now exists inside the venv
+which pip
+pip --version
