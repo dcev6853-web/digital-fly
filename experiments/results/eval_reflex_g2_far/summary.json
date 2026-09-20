@@ -1,0 +1,46 @@
+{
+  "episodes": 44,
+  "success_rate": 0.9772727272727273,
+  "mean_steps_to_target": 61.16279069767442,
+  "mean_time_to_target": 1.2232558139534886,
+  "mean_distance_traveled": 20.643784117516113,
+  "mean_collision_ticks": 0.0,
+  "mean_collision_onsets": 0.0,
+  "mean_reward": 22.895400315639634,
+  "mean_final_distance": 1.0841562030127596,
+  "flipped": 1,
+  "brain": {
+    "type": "reflex"
+  },
+  "env": {
+    "decision_interval": 0.02,
+    "episode_length": 5.0,
+    "warmup": 0.05,
+    "drive_max": 1.2,
+    "target_distance_range": [
+      12.0,
+      18.0
+    ],
+    "target_bearing_range": [
+      -3.1416,
+      3.1416
+    ],
+    "reach_radius": 1.0,
+    "n_obstacles": 0,
+    "obstacle_radius": 1.0,
+    "obstacle_clearance": 1.5,
+    "reward_scale": 1.0,
+    "reach_bonus": 10.0,
+    "collision_penalty": 0.5,
+    "time_cost": 0.01,
+    "heading_reward": 0.0,
+    "fov_half_angle": 2.356194490192345,
+    "distance_norm": 10.0,
+    "velocity_norm": 15.0,
+    "yaw_rate_norm": 3.0,
+    "flip_up_z": 0.0,
+    "fast_controller": true
+  },
+  "wall_s": 27.0,
+  "project_id": "henrycao-2026-f003b4"
+}

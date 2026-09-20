@@ -1,0 +1,24 @@
+| run | eval | success_rate | mean_time_to_target | mean_steps_to_target | mean_distance_traveled | mean_collision_ticks | mean_collision_onsets | mean_reward | mean_final_distance | episodes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| baseline_mlp | g1_obstacles | 0.07 | 1.41 | 70.33 | 28.87 | 90.68 | 8.45 | -42.81 | 4.60 | 44 |
+| baseline_mlp | g2_far | 0.82 | 3.93 | 196.56 | 45.42 | 0.00 | 0.00 | 19.89 | 1.04 | 44 |
+| baseline_mlp | interim_gen20 | 1.00 | 2.31 | 115.67 | 24.70 | 0.00 | 0.00 | 15.79 | 0.94 | 3 |
+| baseline_mlp | test | 1.00 | 2.44 | 122.00 | 28.26 | 0.00 | 0.00 | 16.03 | 0.75 | 1 |
+| baseline_mlp | test_regenerated | 0.86 | 2.01 | 100.45 | 23.42 | 0.00 | 0.00 | 14.48 | 0.95 | 44 |
+| manc_v2 | adhoc_20260919-145729 | 1.00 | 0.64 | 32.00 | 8.61 | 0.00 | 0.00 | 16.78 | 0.89 | 1 |
+| manc_v2 | g1_obstacles | 0.14 | 1.60 | 79.83 | 20.79 | 74.05 | 2.45 | -33.90 | 4.74 | 44 |
+| manc_v2 | g2_far | 0.77 | 2.74 | 136.88 | 27.35 | 0.00 | 0.00 | 17.70 | 3.21 | 44 |
+| manc_v2 | test | 0.98 | 1.24 | 61.93 | 15.42 | 0.00 | 0.00 | 16.08 | 0.92 | 44 |
+| manc_v2_shuffled | adhoc_20260919-142735 | 0.00 | – | – | 17.96 | 0.00 | 0.00 | -11.21 | 17.70 | 1 |
+| manc_v2_shuffled | g1_obstacles | 0.00 | – | – | 21.38 | 61.84 | 4.36 | -29.62 | 5.12 | 44 |
+| manc_v2_shuffled | g2_far | 0.50 | 3.04 | 151.86 | 47.41 | 0.00 | 0.00 | 15.49 | 2.31 | 44 |
+| manc_v2_shuffled | test | 0.84 | 2.06 | 103.05 | 25.03 | 0.00 | 0.00 | 14.02 | 1.15 | 44 |
+| manc_v2_shuffled_side | g1_obstacles | 0.11 | 2.19 | 109.40 | 18.60 | 52.64 | 5.43 | -24.10 | 5.33 | 44 |
+| manc_v2_shuffled_side | g2_far | 1.00 | 1.66 | 83.07 | 21.52 | 0.00 | 0.00 | 23.10 | 0.88 | 44 |
+| manc_v2_shuffled_side | test | 0.98 | 1.04 | 52.00 | 13.61 | 0.00 | 0.00 | 16.18 | 0.91 | 44 |
+| random_g1_obstacles | reference | 0.00 | – | – | 23.79 | 32.09 | 4.27 | -20.21 | 10.53 | 44 |
+| random_g2_far | reference | 0.00 | – | – | 43.50 | 0.00 | 0.00 | -4.96 | 17.27 | 44 |
+| random_test | reference | 0.07 | 2.69 | 134.67 | 25.59 | 0.00 | 0.00 | -3.33 | 10.39 | 44 |
+| reflex_g1_obstacles | reference | 0.48 | 1.16 | 58.10 | 13.85 | 75.02 | 4.25 | -29.20 | 3.29 | 44 |
+| reflex_g2_far | reference | 0.98 | 1.22 | 61.16 | 20.64 | 0.00 | 0.00 | 22.90 | 1.08 | 44 |
+| reflex_test | reference | 0.98 | 0.79 | 39.30 | 12.29 | 0.00 | 0.00 | 16.36 | 0.89 | 44 |

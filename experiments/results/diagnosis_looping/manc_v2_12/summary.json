@@ -1,0 +1,30 @@
+{
+  "episodes": 12,
+  "success_rate": 1.0,
+  "path_efficiency_raw_mean": 1.733237890552403,
+  "path_efficiency_smoothed_mean": 1.2624714746454775,
+  "path_efficiency_smoothed_successes_mean": 1.2624714746454775,
+  "frac_ticks_moving_backward": 0.08127421748560103,
+  "frac_ticks_target_behind": 0.19971671388101983,
+  "turn_vs_bearing_corr": -0.5148300243536582,
+  "frac_ticks_turning_away_from_target": 0.23937677053824363,
+  "mean_turn_cmd": 0.26461884710882655,
+  "mean_turn_cmd_when_target_ahead_20deg": 0.06628058276031934,
+  "mean_abs_bearing_rad": 0.8703555840911165,
+  "net_rotation_per_episode_rad": [
+    -0.31031821708893403,
+    -3.90593217337598,
+    -1.3915564380586147,
+    -2.0685255739372224,
+    1.6795997936278582,
+    -2.9811959201470017,
+    -2.046660508029163,
+    -1.5804624017328024,
+    -4.49894116377552,
+    -0.8545990861020982,
+    -2.7979757027933374,
+    -0.3523419634439051
+  ],
+  "turn_sign_flip_rate": 0.2403908524892343,
+  "mean_forward_cmd": 0.49761180937581223
+}

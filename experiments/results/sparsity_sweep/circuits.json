@@ -1,0 +1,38 @@
+[
+  {
+    "min_weight": 5,
+    "nodes": 6803,
+    "edges": 358255,
+    "density": 0.007742035560958349,
+    "n_DN": 1281,
+    "n_IN": 5153,
+    "n_MN": 369,
+    "build_s": 4.96,
+    "brain_tick_ms": 2.325,
+    "params": 427
+  },
+  {
+    "min_weight": 10,
+    "nodes": 5041,
+    "edges": 135717,
+    "density": 0.005341792539273198,
+    "n_DN": 1169,
+    "n_IN": 3503,
+    "n_MN": 369,
+    "build_s": 4.09,
+    "brain_tick_ms": 1.766,
+    "params": 427
+  },
+  {
+    "min_weight": 20,
+    "nodes": 3204,
+    "edges": 43811,
+    "density": 0.004269074365753392,
+    "n_DN": 872,
+    "n_IN": 1963,
+    "n_MN": 369,
+    "build_s": 6.87,
+    "brain_tick_ms": 0.364,
+    "params": 426
+  }
+]

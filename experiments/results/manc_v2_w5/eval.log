@@ -1,0 +1,69 @@
+{
+  "episodes": 44,
+  "success_rate": 0.022727272727272728,
+  "mean_steps_to_target": 149.0,
+  "mean_time_to_target": 2.98,
+  "mean_distance_traveled": 34.19953757336907,
+  "mean_collision_ticks": 0.0,
+  "mean_collision_onsets": 0.0,
+  "mean_reward": 0.9669034787732701,
+  "mean_final_distance": 5.626862932066805,
+  "flipped": 0,
+  "brain": {
+    "type": "manc",
+    "min_weight": 5,
+    "n_input_types": 32,
+    "substeps": 4,
+    "leak": 0.5,
+    "readout": "standardized"
+  },
+  "wall_s": 106.2,
+  "project_id": "henrycao-2026-f003b4"
+}
+wrote experiments/results/manc_v2_w5/eval_test
+{
+  "episodes": 44,
+  "success_rate": 0.0,
+  "mean_steps_to_target": null,
+  "mean_time_to_target": null,
+  "mean_distance_traveled": 25.564894936753124,
+  "mean_collision_ticks": 2.6363636363636362,
+  "mean_collision_onsets": 0.6818181818181818,
+  "mean_reward": -9.719100827640922,
+  "mean_final_distance": 14.767185420299192,
+  "flipped": 0,
+  "brain": {
+    "type": "manc",
+    "min_weight": 5,
+    "n_input_types": 32,
+    "substeps": 4,
+    "leak": 0.5,
+    "readout": "standardized"
+  },
+  "wall_s": 106.0,
+  "project_id": "henrycao-2026-f003b4"
+}
+wrote experiments/results/manc_v2_w5/eval_g1_obstacles
+{
+  "episodes": 44,
+  "success_rate": 0.09090909090909091,
+  "mean_steps_to_target": 190.0,
+  "mean_time_to_target": 3.8000000000000007,
+  "mean_distance_traveled": 51.98033297792538,
+  "mean_collision_ticks": 0.0,
+  "mean_collision_onsets": 0.0,
+  "mean_reward": 1.0154309054150554,
+  "mean_final_distance": 12.256625613237361,
+  "flipped": 0,
+  "brain": {
+    "type": "manc",
+    "min_weight": 5,
+    "n_input_types": 32,
+    "substeps": 4,
+    "leak": 0.5,
+    "readout": "standardized"
+  },
+  "wall_s": 149.0,
+  "project_id": "henrycao-2026-f003b4"
+}
+wrote experiments/results/manc_v2_w5/eval_g2_far

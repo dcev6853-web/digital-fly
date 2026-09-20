@@ -1,0 +1,24 @@
+{
+  "episodes": 1,
+  "success_rate": 0.0,
+  "mean_steps_to_target": null,
+  "mean_time_to_target": null,
+  "mean_distance_traveled": 20.368826745180748,
+  "mean_collision_ticks": 136.0,
+  "mean_collision_onsets": 2.0,
+  "mean_reward": -68.09881440650817,
+  "mean_final_distance": 6.592325231573055,
+  "flipped": 0,
+  "brain": {
+    "type": "manc",
+    "min_weight": 10,
+    "n_input_types": 32,
+    "substeps": 4,
+    "leak": 0.5,
+    "readout": "standardized"
+  },
+  "wall_s": 18.2,
+  "project_id": "henrycao-2026-f003b4"
+}
+wrote /home/unix_101/digital-fly/experiments/results/demo_check/manc_v2_n2
+video: /home/unix_101/digital-fly/experiments/results/demo_check/manc_v2_n2/videos/seed20000000_fail | success False t2t None

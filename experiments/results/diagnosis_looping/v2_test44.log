@@ -1,0 +1,106 @@
+seed 20000000: success True t2t 2.86 path 33.0 mm / straight 8.0 mm
+seed 20000001: success False t2t None path 38.2 mm / straight 9.1 mm
+seed 20000002: success True t2t 2.84 path 30.8 mm / straight 6.6 mm
+seed 20000003: success False t2t None path 33.1 mm / straight 9.4 mm
+seed 20000004: success True t2t 0.78 path 9.9 mm / straight 7.5 mm
+seed 20000005: success True t2t 2.2600000000000002 path 28.6 mm / straight 8.2 mm
+seed 20000006: success True t2t 2.66 path 28.4 mm / straight 9.2 mm
+seed 20000007: success True t2t 1.94 path 21.5 mm / straight 5.8 mm
+seed 20000008: success False t2t None path 36.8 mm / straight 7.9 mm
+seed 20000009: success True t2t 2.2 path 27.1 mm / straight 6.8 mm
+seed 20000010: success True t2t 2.32 path 28.9 mm / straight 8.3 mm
+seed 20000011: success True t2t 2.22 path 25.0 mm / straight 7.2 mm
+seed 20000012: success True t2t 1.84 path 22.6 mm / straight 7.4 mm
+seed 20000013: success False t2t None path 34.6 mm / straight 8.3 mm
+seed 20000014: success True t2t 2.16 path 22.9 mm / straight 7.9 mm
+seed 20000015: success True t2t 2.06 path 26.9 mm / straight 8.1 mm
+seed 20000016: success True t2t 2.68 path 29.1 mm / straight 7.9 mm
+seed 20000017: success True t2t 0.86 path 10.6 mm / straight 7.8 mm
+seed 20000018: success True t2t 1.8800000000000001 path 18.5 mm / straight 5.6 mm
+seed 20000019: success True t2t 1.98 path 24.1 mm / straight 8.0 mm
+seed 20000020: success True t2t 2.92 path 32.0 mm / straight 8.8 mm
+seed 20000021: success False t2t None path 32.9 mm / straight 5.5 mm
+seed 20000022: success True t2t 2.0 path 23.3 mm / straight 6.3 mm
+seed 20000023: success True t2t 2.2600000000000002 path 26.7 mm / straight 7.1 mm
+seed 20000024: success True t2t 1.76 path 22.4 mm / straight 8.5 mm
+seed 20000025: success True t2t 2.16 path 23.3 mm / straight 8.6 mm
+seed 20000026: success True t2t 1.58 path 18.7 mm / straight 9.4 mm
+seed 20000027: success True t2t 1.98 path 24.8 mm / straight 7.2 mm
+seed 20000028: success False t2t None path 35.7 mm / straight 7.2 mm
+seed 20000029: success True t2t 2.24 path 24.0 mm / straight 6.4 mm
+seed 20000030: success False t2t None path 32.4 mm / straight 9.4 mm
+seed 20000031: success True t2t 2.42 path 26.2 mm / straight 8.7 mm
+seed 20000032: success True t2t 1.12 path 12.5 mm / straight 5.8 mm
+seed 20000033: success False t2t None path 36.6 mm / straight 6.6 mm
+seed 20000034: success True t2t 2.02 path 23.8 mm / straight 7.2 mm
+seed 20000035: success True t2t 2.4 path 31.4 mm / straight 10.0 mm
+seed 20000036: success True t2t 1.68 path 18.9 mm / straight 8.1 mm
+seed 20000037: success True t2t 1.96 path 23.9 mm / straight 7.8 mm
+seed 20000038: success True t2t 2.7600000000000002 path 31.0 mm / straight 8.0 mm
+seed 20000039: success False t2t None path 33.6 mm / straight 8.3 mm
+seed 20000040: success True t2t 1.76 path 23.8 mm / straight 8.2 mm
+seed 20000041: success True t2t 1.9000000000000001 path 25.0 mm / straight 8.9 mm
+seed 20000042: success False t2t None path 31.2 mm / straight 8.7 mm
+seed 20000043: success True t2t 1.48 path 19.7 mm / straight 10.3 mm
+{
+  "episodes": 44,
+  "success_rate": 0.7727272727272727,
+  "path_efficiency_raw_mean": 3.4144585856408822,
+  "path_efficiency_smoothed_mean": 2.1711764984819015,
+  "path_efficiency_smoothed_successes_mean": 1.9774486779549358,
+  "frac_ticks_moving_backward": 0.1975792110834271,
+  "frac_ticks_target_behind": 0.5873524114468681,
+  "turn_vs_bearing_corr": 0.232924045155986,
+  "frac_ticks_turning_away_from_target": 0.3608164898939364,
+  "mean_turn_cmd": -0.7258123918388285,
+  "mean_turn_cmd_when_target_ahead_20deg": -0.5891497218659504,
+  "mean_abs_bearing_rad": 1.7775115394365533,
+  "net_rotation_per_episode_rad": [
+    7.018246086557404,
+    8.839148709793584,
+    7.942912233305172,
+    7.865756159891383,
+    2.1085565965622663,
+    5.272354195137517,
+    7.7857129278229635,
+    5.878816631167204,
+    9.65147089052202,
+    6.949788160865204,
+    5.8281942417482,
+    6.860247559157209,
+    5.039429140520291,
+    8.729706559573309,
+    3.394619982932703,
+    5.836260411200122,
+    6.843780186270372,
+    2.238565480336547,
+    3.1143847780870364,
+    5.082803152744667,
+    7.364359437731103,
+    8.767579157148496,
+    6.158456132990317,
+    5.725689476598994,
+    4.771696917955772,
+    4.398473765944139,
+    3.611836650186227,
+    5.393482461814777,
+    7.578766154135586,
+    6.118451687750415,
+    8.694890603666202,
+    6.732184954230682,
+    2.5635109897702932,
+    10.127779235618206,
+    5.275445496906535,
+    5.395239964370624,
+    3.514399648887114,
+    5.33916558675562,
+    7.960900744666354,
+    7.991991047059194,
+    4.558417526316838,
+    4.8763803767608564,
+    6.713942889367239,
+    3.906814761702911
+  ],
+  "turn_sign_flip_rate": 0.0,
+  "mean_forward_cmd": 0.27816820630689826
+}

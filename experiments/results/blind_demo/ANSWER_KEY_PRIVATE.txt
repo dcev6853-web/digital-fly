@@ -1,0 +1,4 @@
+BLIND DEMO ANSWER KEY — presenter only. Episode seed 20000001 (same target for all clips).
+clip_A.mp4 = baseline   (success=True time_to_target=2.08; render wall 1789878286-1789878159=127 s)
+clip_B.mp4 = MANC   (success=True time_to_target=2.2600000000000002; render wall 1789878434-1789878286=148 s)
+clip_C.mp4 = reflex   (success=True time_to_target=1.16; render wall 1789878501-1789878434=67 s)

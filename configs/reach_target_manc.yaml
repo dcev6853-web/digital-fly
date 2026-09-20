@@ -1,0 +1,36 @@
+# Original concept & implementation: Henry Cao
+# Project: Digital Fly / MANC Learning Architecture — started 2026-09-19
+# Project ID: henrycao-2026-f003b4
+# Task 1: reach-target, MANC-constrained brain (identical env + ES budget to the baseline). Spec-level knobs at top level; details in sections.
+name: reach_target_manc
+env_seed: 0
+episodes: 1536          # total training episodes; ES generations = episodes / (2*pairs*episodes_per_candidate)
+episode_length: 3.0     # s of simulated time per episode (150 brain ticks at 20 ms)
+learning_rate: 0.05
+reward_scale: 1.0       # reward per mm of progress toward the target
+
+brain:
+  type: manc
+  min_weight: 10
+  n_input_types: 32
+  substeps: 4
+  leak: 0.5
+
+env:
+  decision_interval: 0.02
+  target_distance_range: [6.0, 10.0]     # mm
+  target_bearing_range: [-3.1416, 3.1416] # rad relative to initial heading (anywhere)
+  reach_radius: 1.0
+  n_obstacles: 0
+  reach_bonus: 10.0
+  collision_penalty: 0.5
+  time_cost: 0.01
+
+es:
+  pairs: 8
+  sigma: 0.1
+  episodes_per_candidate: 2
+  weight_decay: 0.005
+  workers: 11
+  eval_every: 5
+  eval_episodes: 22

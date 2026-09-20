@@ -1,0 +1,69 @@
+brain {'type': 'manc', 'min_weight': 20, 'n_input_types': 32, 'substeps': 4, 'leak': 0.5, 'readout': 'standardized'} (426 params) | 48 generations x 32 episodes | 11 workers | out experiments/results/manc_v2_w20
+[gen   0] EVAL success 0.00 reward -6.53 t2t None coll 0.0
+[gen   0] fit  -3.01 (max   8.90) succ 0.12 108.3s
+[gen   1] fit  -6.31 (max  -0.01) succ 0.00 59.9s
+[gen   2] fit -11.44 (max   4.23) succ 0.03 64.4s
+[gen   3] fit  -9.49 (max  -0.53) succ 0.00 80.9s
+[gen   4] fit -11.02 (max  -1.61) succ 0.00 90.6s
+[gen   5] EVAL success 0.09 reward -2.35 t2t 2.6399999999999997 coll 0.0
+[gen   5] fit -12.96 (max   1.68) succ 0.00 123.5s
+[gen   6] fit  -9.75 (max   2.98) succ 0.00 84.0s
+[gen   7] fit  -3.78 (max   4.47) succ 0.03 82.2s
+[gen   8] fit  -3.57 (max   5.70) succ 0.06 86.6s
+[gen   9] fit  -2.51 (max   5.62) succ 0.03 78.5s
+[gen  10] EVAL success 0.14 reward 2.59 t2t 2.506666666666667 coll 0.0
+[gen  10] fit  -1.46 (max   7.04) succ 0.09 114.4s
+[gen  11] fit  -1.67 (max   2.12) succ 0.00 69.5s
+[gen  12] fit  -1.78 (max   0.03) succ 0.00 71.7s
+[gen  13] fit  -2.82 (max   2.14) succ 0.06 64.4s
+[gen  14] fit   0.48 (max   7.06) succ 0.03 70.2s
+[gen  15] EVAL success 0.05 reward 2.13 t2t 1.36 coll 0.0
+[gen  15] fit  -4.21 (max   6.69) succ 0.03 117.7s
+[gen  16] fit  -1.79 (max   0.93) succ 0.00 79.9s
+[gen  17] fit  -0.98 (max   1.04) succ 0.00 72.6s
+[gen  18] fit  -0.23 (max   7.92) succ 0.12 82.8s
+[gen  19] fit   4.37 (max   8.77) succ 0.19 74.8s
+[gen  20] EVAL success 0.14 reward 3.38 t2t 1.6333333333333335 coll 0.0
+[gen  20] fit   7.20 (max  12.44) succ 0.31 119.0s
+[gen  21] fit  -1.84 (max   6.69) succ 0.03 85.4s
+[gen  22] fit  -1.62 (max   6.84) succ 0.09 83.0s
+[gen  23] fit  -3.40 (max  -0.60) succ 0.00 82.6s
+[gen  24] fit   3.15 (max   8.48) succ 0.16 75.6s
+[gen  25] EVAL success 0.14 reward 3.35 t2t 1.4400000000000002 coll 0.0
+[gen  25] fit  -3.78 (max   0.45) succ 0.00 120.0s
+[gen  26] fit   1.14 (max   8.25) succ 0.06 78.5s
+[gen  27] fit  -1.57 (max   0.78) succ 0.00 80.8s
+[gen  28] fit   4.56 (max   8.90) succ 0.22 63.9s
+[gen  29] fit   0.90 (max   7.19) succ 0.09 72.2s
+[gen  30] EVAL success 0.32 reward 5.88 t2t 1.42 coll 0.0
+[gen  30] fit   2.32 (max   8.65) succ 0.03 124.7s
+[gen  31] fit   1.12 (max   8.82) succ 0.16 80.8s
+[gen  32] fit  -1.73 (max   7.95) succ 0.06 86.7s
+[gen  33] fit   0.72 (max   8.68) succ 0.12 73.0s
+[gen  34] fit   0.07 (max   8.68) succ 0.06 80.5s
+[gen  35] EVAL success 0.36 reward 6.28 t2t 1.3225 coll 0.0
+[gen  35] fit  -1.26 (max   7.58) succ 0.03 126.4s
+[gen  36] fit  -1.27 (max   9.02) succ 0.03 84.8s
+[gen  37] fit   2.55 (max  11.38) succ 0.03 71.4s
+[gen  38] fit   3.20 (max   8.40) succ 0.06 76.0s
+[gen  39] fit   0.55 (max  10.94) succ 0.06 76.1s
+[gen  40] EVAL success 0.32 reward 6.33 t2t 1.422857142857143 coll 0.0
+[gen  40] fit   2.80 (max   8.82) succ 0.16 110.4s
+[gen  41] fit  -1.45 (max   9.37) succ 0.03 80.4s
+[gen  42] fit  -1.98 (max   3.79) succ 0.00 71.6s
+[gen  43] fit  12.18 (max  17.97) succ 0.59 55.9s
+[gen  44] fit   0.93 (max   3.44) succ 0.00 67.3s
+[gen  45] EVAL success 0.09 reward 3.34 t2t 1.2400000000000002 coll 0.0
+[gen  45] fit   6.13 (max  10.10) succ 0.22 115.2s
+[gen  46] fit   1.06 (max  10.25) succ 0.03 74.6s
+[gen  47] fit  -0.82 (max   2.99) succ 0.00 78.5s
+[gen  48] EVAL success 0.09 reward 3.14 t2t 1.1600000000000001 coll 0.0
+{
+  "best": {
+    "generation": 35,
+    "eval_success_rate": 0.36363636363636365,
+    "eval_mean_reward": 6.280450146751798
+  },
+  "wall_s": 4122.0,
+  "n_params": 426
+}

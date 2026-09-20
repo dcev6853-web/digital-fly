@@ -1,0 +1,53 @@
+{
+  "es": {
+    "generations": 48,
+    "pairs": 8,
+    "sigma": 0.1,
+    "learning_rate": 0.05,
+    "episodes_per_candidate": 2,
+    "weight_decay": 0.005,
+    "workers": 11,
+    "eval_every": 5,
+    "eval_episodes": 22,
+    "eval_seed_offset": 10000000,
+    "seed": 0
+  },
+  "env": {
+    "decision_interval": 0.02,
+    "episode_length": 3.0,
+    "warmup": 0.05,
+    "drive_max": 1.2,
+    "target_distance_range": [
+      6.0,
+      10.0
+    ],
+    "target_bearing_range": [
+      -3.1416,
+      3.1416
+    ],
+    "reach_radius": 1.0,
+    "n_obstacles": 0,
+    "obstacle_radius": 1.0,
+    "obstacle_clearance": 1.5,
+    "reward_scale": 1.0,
+    "reach_bonus": 10.0,
+    "collision_penalty": 0.5,
+    "time_cost": 0.01,
+    "fov_half_angle": 2.356194490192345,
+    "distance_norm": 10.0,
+    "velocity_norm": 15.0,
+    "yaw_rate_norm": 3.0,
+    "flip_up_z": 0.0,
+    "fast_controller": true
+  },
+  "brain": {
+    "type": "manc",
+    "min_weight": 10,
+    "n_input_types": 32,
+    "substeps": 4,
+    "leak": 0.5,
+    "readout": "standardized"
+  },
+  "n_params": 427,
+  "project_id": "henrycao-2026-f003b4"
+}

@@ -1,0 +1,28 @@
+brain {'type': 'manc', 'min_weight': 10, 'n_input_types': 32, 'substeps': 4, 'leak': 0.5} (430 params) | 48 generations x 32 episodes | 11 workers | out experiments/results/manc
+[gen   0] EVAL success 0.27 reward -7.85 t2t 0.7333333333333333 coll 0.0
+[gen   0] fit -31.43 (max   0.41) succ 0.16 76.6s
+[gen   1] fit -32.09 (max  -4.07) succ 0.03 54.9s
+[gen   2] fit -33.39 (max -23.66) succ 0.00 55.3s
+[gen   3] fit -29.52 (max -21.69) succ 0.00 54.3s
+[gen   4] fit -28.32 (max -26.49) succ 0.00 53.2s
+[gen   5] EVAL success 0.14 reward -21.00 t2t 0.8666666666666667 coll 0.0
+[gen   5] fit -20.25 (max -20.25) succ 0.00 87.5s
+[gen   6] fit -32.42 (max -32.42) succ 0.00 55.4s
+[gen   7] fit -21.46 (max -21.46) succ 0.00 57.8s
+[gen   8] fit -27.20 (max -27.20) succ 0.00 57.0s
+[gen   9] fit -28.22 (max -28.22) succ 0.00 66.4s
+[gen  10] EVAL success 0.14 reward -21.00 t2t 0.8666666666666667 coll 0.0
+[gen  10] fit -32.72 (max -32.72) succ 0.00 140.1s
+[gen  11] fit -22.28 (max -22.28) succ 0.00 84.5s
+[gen  12] fit -25.44 (max -25.44) succ 0.00 85.5s
+[gen  13] fit -23.67 (max -23.67) succ 0.00 89.1s
+[gen  14] fit -21.52 (max -21.52) succ 0.00 77.0s
+[gen  15] EVAL success 0.14 reward -21.00 t2t 0.8666666666666667 coll 0.0
+[gen  15] fit -27.40 (max -27.40) succ 0.00 114.7s
+[gen  16] fit -23.87 (max -23.87) succ 0.00 62.3s
+[gen  17] fit -28.86 (max -28.86) succ 0.00 61.4s
+[gen  18] fit -23.57 (max -23.57) succ 0.00 60.8s
+[gen  19] fit -24.73 (max -24.73) succ 0.00 64.1s
+[gen  20] EVAL success 0.14 reward -21.00 t2t 0.8666666666666667 coll 0.0
+/usr/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

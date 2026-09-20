@@ -1,0 +1,26 @@
+{
+  "episodes": 1,
+  "success_rate": 1.0,
+  "mean_steps_to_target": 40.0,
+  "mean_time_to_target": 0.8,
+  "mean_distance_traveled": 8.907737828899762,
+  "mean_collision_ticks": 0.0,
+  "mean_collision_onsets": 0.0,
+  "mean_reward": 16.7808389426585,
+  "mean_final_distance": 0.8126718824064559,
+  "flipped": 0,
+  "brain": {
+    "type": "manc",
+    "min_weight": 10,
+    "n_input_types": 32,
+    "substeps": 4,
+    "leak": 0.5,
+    "readout": "standardized",
+    "shuffle_seed": 0,
+    "shuffle_mode": "class_side"
+  },
+  "wall_s": 5.4,
+  "project_id": "henrycao-2026-f003b4"
+}
+wrote /home/unix_101/digital-fly/experiments/results/demo_check/manc_v2_shuffled_side_n0
+video: /home/unix_101/digital-fly/experiments/results/demo_check/manc_v2_shuffled_side_n0/videos/seed20000000_success | success True t2t 0.8

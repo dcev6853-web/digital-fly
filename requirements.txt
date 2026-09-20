@@ -1,0 +1,9 @@
+# Python 3.12 (3.12-3.14 supported by flygym 2.1). Install:
+#   python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt
+-e ./simulator            # FlyGym v2.1.0 @ 38c8ec6 (Apache-2.0), cloned untouched
+numpy>=2.0,<3.0
+scipy>=1.15,<2.0
+pyyaml>=6.0,<7.0
+pandas>=2.2               # MANC tables (M6)
+pyarrow>=15               # MANC .feather
+pytest>=9,<10

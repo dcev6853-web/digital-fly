@@ -1,0 +1,10 @@
+[17:13:10] queue_v2 exited
+[17:13:11] STEP1 OK
+[17:13:11] train baseline_v2
+[19:37:35] done step2
+[19:37:35] train manc_v2_w5
+[21:40:48] train manc_v2_w20
+[22:55:57] done step3
+[23:07:53] done step4
+[23:28:21] done step6
+[23:28:21] QUEUE_SF COMPLETE

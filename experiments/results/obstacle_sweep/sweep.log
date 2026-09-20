@@ -1,0 +1,17 @@
+running: --episodes 44 --n-obstacles 1 --out /home/unix_101/digital-fly/experiments/results/obstacle_sweep/reflex_n1 --brain reflex
+running: --episodes 44 --n-obstacles 1 --out /home/unix_101/digital-fly/experiments/results/obstacle_sweep/random_n1 --brain random
+running: --episodes 44 --n-obstacles 1 --out /home/unix_101/digital-fly/experiments/results/obstacle_sweep/baseline_mlp_n1 --run /home/unix_101/digital-fly/experiments/results/baseline_mlp
+running: --episodes 44 --n-obstacles 1 --out /home/unix_101/digital-fly/experiments/results/obstacle_sweep/baseline_v2_n1 --run /home/unix_101/digital-fly/experiments/results/baseline_v2
+running: --episodes 44 --n-obstacles 1 --out /home/unix_101/digital-fly/experiments/results/obstacle_sweep/manc_v2_n1 --run /home/unix_101/digital-fly/experiments/results/manc_v2
+running: --episodes 44 --n-obstacles 1 --out /home/unix_101/digital-fly/experiments/results/obstacle_sweep/manc_v2_shuffled_n1 --run /home/unix_101/digital-fly/experiments/results/manc_v2_shuffled
+running: --episodes 44 --n-obstacles 1 --out /home/unix_101/digital-fly/experiments/results/obstacle_sweep/manc_v2_shuffled_side_n1 --run /home/unix_101/digital-fly/experiments/results/manc_v2_shuffled_side
+| brain | N=0 success | N=1 success | N=2 success | N=1 collision ticks | N=2 collision ticks |
+|---|---|---|---|---|---|
+| reflex (hand-coded) | 0.98 (43/44) | 0.68 (30/44) | 0.48 (21/44) | 50.6 | 75.0 |
+| random | 0.07 (3/44) | 0.05 (2/44) | 0.00 (0/44) | 17.9 | 32.1 |
+| MLP v1 | 0.86 (38/44) | 0.16 (7/44) | 0.07 (3/44) | 65.4 | 90.7 |
+| MLP v2 (heading) | 0.77 (34/44) | 0.16 (7/44) | 0.00 (0/44) | 38.4 | 71.2 |
+| MANC v2 | 0.98 (43/44) | 0.16 (7/44) | 0.14 (6/44) | 52.8 | 74.0 |
+| MANC v2 shuffled | 0.84 (37/44) | 0.11 (5/44) | 0.00 (0/44) | 46.2 | 61.8 |
+| MANC v2 shuffled-side | 0.98 (43/44) | 0.30 (13/44) | 0.11 (5/44) | 22.9 | 52.6 |
+wrote /home/unix_101/digital-fly/experiments/results/obstacle_sweep/table.md /home/unix_101/digital-fly/experiments/results/obstacle_sweep/obstacles.png

@@ -1,0 +1,54 @@
+{
+  "episodes": 44,
+  "success_rate": 0.8636363636363636,
+  "mean_steps_to_target": 100.44736842105263,
+  "mean_time_to_target": 2.008947368421053,
+  "mean_distance_traveled": 23.416995086713417,
+  "mean_collision_ticks": 0.0,
+  "mean_collision_onsets": 0.0,
+  "mean_reward": 14.478833838878028,
+  "mean_final_distance": 0.9517507537802246,
+  "flipped": 0,
+  "brain": {
+    "type": "mlp",
+    "hidden": 16
+  },
+  "wall_s": 43.2
+}
+wrote experiments/results/baseline_mlp/eval_test
+{
+  "episodes": 44,
+  "success_rate": 0.06818181818181818,
+  "mean_steps_to_target": 70.33333333333333,
+  "mean_time_to_target": 1.406666666666667,
+  "mean_distance_traveled": 28.874727383416975,
+  "mean_collision_ticks": 90.68181818181819,
+  "mean_collision_onsets": 8.454545454545455,
+  "mean_reward": -42.81132791250811,
+  "mean_final_distance": 4.603503414257258,
+  "flipped": 1,
+  "brain": {
+    "type": "mlp",
+    "hidden": 16
+  },
+  "wall_s": 70.1
+}
+wrote experiments/results/baseline_mlp/eval_g1_obstacles
+{
+  "episodes": 44,
+  "success_rate": 0.8181818181818182,
+  "mean_steps_to_target": 196.55555555555554,
+  "mean_time_to_target": 3.9311111111111114,
+  "mean_distance_traveled": 45.41501305737068,
+  "mean_collision_ticks": 0.0,
+  "mean_collision_onsets": 0.0,
+  "mean_reward": 19.890167201166175,
+  "mean_final_distance": 1.037343862940773,
+  "flipped": 0,
+  "brain": {
+    "type": "mlp",
+    "hidden": 16
+  },
+  "wall_s": 103.3
+}
+wrote experiments/results/baseline_mlp/eval_g2_far

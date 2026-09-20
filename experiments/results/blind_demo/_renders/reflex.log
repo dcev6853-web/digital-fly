@@ -1,0 +1,19 @@
+{
+  "episodes": 1,
+  "success_rate": 1.0,
+  "mean_steps_to_target": 58.0,
+  "mean_time_to_target": 1.16,
+  "mean_distance_traveled": 17.916696210750015,
+  "mean_collision_ticks": 0.0,
+  "mean_collision_onsets": 0.0,
+  "mean_reward": 17.712258544981363,
+  "mean_final_distance": 0.8269305802178362,
+  "flipped": 0,
+  "brain": {
+    "type": "reflex"
+  },
+  "wall_s": 5.4,
+  "project_id": "henrycao-2026-f003b4"
+}
+wrote /home/unix_101/digital-fly/experiments/results/blind_demo/_renders/reflex
+video: /home/unix_101/digital-fly/experiments/results/blind_demo/_renders/reflex/videos/seed20000001_success | success True t2t 1.16

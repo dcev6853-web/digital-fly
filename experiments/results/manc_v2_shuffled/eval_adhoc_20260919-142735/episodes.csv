@@ -1,0 +1,2 @@
+success,steps_to_target,time_to_target,distance_traveled,collision_ticks,collision_onsets,reward,initial_distance,final_distance,flipped,ticks,seed
+False,,,17.958846789944612,0,0,-11.205291114406698,7.993510825064957,17.698801939471682,False,150,20000000

@@ -1,0 +1,9 @@
+[13:32:36] train manc_v2
+[14:23:33] done manc_v2
+[14:23:33] train manc_v2_shuffled
+[15:30:46] done manc_v2_shuffled
+[15:30:46] train manc_v2_shuffled_side
+[17:07:02] done manc_v2_shuffled_side
+[17:08:47] reference reflex evaluated
+[17:12:58] reference random evaluated
+[17:12:58] QUEUE COMPLETE

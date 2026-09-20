@@ -1,0 +1,9 @@
+{
+  "best": {
+    "generation": 35,
+    "eval_success_rate": 0.9090909090909091,
+    "eval_mean_reward": 15.319959368547579
+  },
+  "wall_s": 3890.4,
+  "n_params": 242
+}

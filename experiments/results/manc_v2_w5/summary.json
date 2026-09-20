@@ -1,0 +1,10 @@
+{
+  "best": {
+    "generation": 45,
+    "eval_success_rate": 0.09090909090909091,
+    "eval_mean_reward": 0.6048177462561243
+  },
+  "wall_s": 7025.4,
+  "n_params": 427,
+  "project_id": "henrycao-2026-f003b4"
+}

@@ -1,0 +1,167 @@
+{
+  "sources": {
+    "reflex (hand-coded) N=0": "eval_reflex_test",
+    "reflex (hand-coded) N=1": "obstacle_sweep/reflex_n1",
+    "reflex (hand-coded) N=2": "eval_reflex_g1_obstacles",
+    "random N=0": "eval_random_test",
+    "random N=1": "obstacle_sweep/random_n1",
+    "random N=2": "eval_random_g1_obstacles",
+    "MLP v1 N=0": "baseline_mlp/eval_test_regenerated",
+    "MLP v1 N=1": "obstacle_sweep/baseline_mlp_n1",
+    "MLP v1 N=2": "baseline_mlp/eval_g1_obstacles",
+    "MLP v2 (heading) N=0": "baseline_v2/eval_test",
+    "MLP v2 (heading) N=1": "obstacle_sweep/baseline_v2_n1",
+    "MLP v2 (heading) N=2": "baseline_v2/eval_g1_obstacles",
+    "MANC v2 N=0": "manc_v2/eval_test",
+    "MANC v2 N=1": "obstacle_sweep/manc_v2_n1",
+    "MANC v2 N=2": "manc_v2/eval_g1_obstacles",
+    "MANC v2 shuffled N=0": "manc_v2_shuffled/eval_test",
+    "MANC v2 shuffled N=1": "obstacle_sweep/manc_v2_shuffled_n1",
+    "MANC v2 shuffled N=2": "manc_v2_shuffled/eval_g1_obstacles",
+    "MANC v2 shuffled-side N=0": "manc_v2_shuffled_side/eval_test",
+    "MANC v2 shuffled-side N=1": "obstacle_sweep/manc_v2_shuffled_side_n1",
+    "MANC v2 shuffled-side N=2": "manc_v2_shuffled_side/eval_g1_obstacles"
+  },
+  "table": {
+    "reflex (hand-coded)": {
+      "0": {
+        "success_rate": 0.9772727272727273,
+        "mean_time_to_target": 0.786046511627907,
+        "mean_collision_ticks": 0.0,
+        "mean_collision_onsets": 0.0
+      },
+      "1": {
+        "success_rate": 0.6818181818181818,
+        "mean_time_to_target": 1.0919999999999999,
+        "mean_collision_ticks": 50.56818181818182,
+        "mean_collision_onsets": 2.0681818181818183
+      },
+      "2": {
+        "success_rate": 0.4772727272727273,
+        "mean_time_to_target": 1.161904761904762,
+        "mean_collision_ticks": 75.02272727272727,
+        "mean_collision_onsets": 4.25
+      }
+    },
+    "random": {
+      "0": {
+        "success_rate": 0.06818181818181818,
+        "mean_time_to_target": 2.6933333333333334,
+        "mean_collision_ticks": 0.0,
+        "mean_collision_onsets": 0.0
+      },
+      "1": {
+        "success_rate": 0.045454545454545456,
+        "mean_time_to_target": 2.76,
+        "mean_collision_ticks": 17.931818181818183,
+        "mean_collision_onsets": 2.6363636363636362
+      },
+      "2": {
+        "success_rate": 0.0,
+        "mean_time_to_target": null,
+        "mean_collision_ticks": 32.09090909090909,
+        "mean_collision_onsets": 4.2727272727272725
+      }
+    },
+    "MLP v1": {
+      "0": {
+        "success_rate": 0.8636363636363636,
+        "mean_time_to_target": 2.008947368421053,
+        "mean_collision_ticks": 0.0,
+        "mean_collision_onsets": 0.0
+      },
+      "1": {
+        "success_rate": 0.1590909090909091,
+        "mean_time_to_target": 1.6085714285714285,
+        "mean_collision_ticks": 65.43181818181819,
+        "mean_collision_onsets": 6.9772727272727275
+      },
+      "2": {
+        "success_rate": 0.06818181818181818,
+        "mean_time_to_target": 1.406666666666667,
+        "mean_collision_ticks": 90.68181818181819,
+        "mean_collision_onsets": 8.454545454545455
+      }
+    },
+    "MLP v2 (heading)": {
+      "0": {
+        "success_rate": 0.7727272727272727,
+        "mean_time_to_target": 2.0570588235294123,
+        "mean_collision_ticks": 0.0,
+        "mean_collision_onsets": 0.0
+      },
+      "1": {
+        "success_rate": 0.1590909090909091,
+        "mean_time_to_target": 1.2114285714285715,
+        "mean_collision_ticks": 38.43181818181818,
+        "mean_collision_onsets": 3.6136363636363638
+      },
+      "2": {
+        "success_rate": 0.0,
+        "mean_time_to_target": null,
+        "mean_collision_ticks": 71.18181818181819,
+        "mean_collision_onsets": 5.613636363636363
+      }
+    },
+    "MANC v2": {
+      "0": {
+        "success_rate": 0.9772727272727273,
+        "mean_time_to_target": 1.2386046511627906,
+        "mean_collision_ticks": 0.0,
+        "mean_collision_onsets": 0.0
+      },
+      "1": {
+        "success_rate": 0.1590909090909091,
+        "mean_time_to_target": 1.374285714285714,
+        "mean_collision_ticks": 52.79545454545455,
+        "mean_collision_onsets": 2.25
+      },
+      "2": {
+        "success_rate": 0.13636363636363635,
+        "mean_time_to_target": 1.5966666666666667,
+        "mean_collision_ticks": 74.04545454545455,
+        "mean_collision_onsets": 2.4545454545454546
+      }
+    },
+    "MANC v2 shuffled": {
+      "0": {
+        "success_rate": 0.8409090909090909,
+        "mean_time_to_target": 2.0610810810810807,
+        "mean_collision_ticks": 0.0,
+        "mean_collision_onsets": 0.0
+      },
+      "1": {
+        "success_rate": 0.11363636363636363,
+        "mean_time_to_target": 1.3,
+        "mean_collision_ticks": 46.22727272727273,
+        "mean_collision_onsets": 3.75
+      },
+      "2": {
+        "success_rate": 0.0,
+        "mean_time_to_target": null,
+        "mean_collision_ticks": 61.84090909090909,
+        "mean_collision_onsets": 4.363636363636363
+      }
+    },
+    "MANC v2 shuffled-side": {
+      "0": {
+        "success_rate": 0.9772727272727273,
+        "mean_time_to_target": 1.04,
+        "mean_collision_ticks": 0.0,
+        "mean_collision_onsets": 0.0
+      },
+      "1": {
+        "success_rate": 0.29545454545454547,
+        "mean_time_to_target": 1.8846153846153844,
+        "mean_collision_ticks": 22.90909090909091,
+        "mean_collision_onsets": 3.022727272727273
+      },
+      "2": {
+        "success_rate": 0.11363636363636363,
+        "mean_time_to_target": 2.1879999999999997,
+        "mean_collision_ticks": 52.63636363636363,
+        "mean_collision_onsets": 5.431818181818182
+      }
+    }
+  }
+}

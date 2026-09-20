@@ -1,0 +1,20 @@
+{
+  "episodes": 1,
+  "success_rate": 0.0,
+  "mean_steps_to_target": null,
+  "mean_time_to_target": null,
+  "mean_distance_traveled": 29.806485538971142,
+  "mean_collision_ticks": 27.0,
+  "mean_collision_onsets": 3.0,
+  "mean_reward": -9.595360310681134,
+  "mean_final_distance": 2.588871135746082,
+  "flipped": 0,
+  "brain": {
+    "type": "mlp",
+    "hidden": 16
+  },
+  "wall_s": 14.6,
+  "project_id": "henrycao-2026-f003b4"
+}
+wrote /home/unix_101/digital-fly/experiments/results/demo_check/baseline_mlp_n1
+video: /home/unix_101/digital-fly/experiments/results/demo_check/baseline_mlp_n1/videos/seed20000000_fail | success False t2t None
